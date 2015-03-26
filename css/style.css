@@ -63,12 +63,49 @@
 
 .job {
 -webkit-animation: breath 1.8s ease-in-out infinite alternate;
+-moz-animation: breath 1.8s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes breath {
   100% {
     -webkit-transform: scale(1.08); 
     opacity: 1;
+  }
+}
+@-moz-keyframes breath {
+  100% {
+    -moz-transform: scale(1.08); 
+    opacity: 1;
+  }
+}
+
+/* Arrow animation */
+
+.arrow-wrapper{
+  height: 5.625rem;
+  width: 3.25rem;
+  position: absolute;
+  opacity: 0.3;
+  left: 50%;
+  margin-left: -1.625rem;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.down-arrow{
+ -webkit-animation: bounce 1.8s ease-in-out infinite alternate;
+ -moz-animation: bounce 1.8s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes bounce{
+  0% {
+    -webkit-transform: translate(0, 3em);
+  }
+}
+
+@-moz-keyframes bounce{
+  0% {
+    -moz-transform: translate(0, 3em);
   }
 }
 
@@ -291,7 +328,10 @@
 
 /* media queries */
 
-@media (max-width: 1024px) {
+@media
+(max-width: 1024px),
+(max--moz-width: 1024px),
+(-webkit-max-width: 1024px){
 
   .name,
   .heading {
