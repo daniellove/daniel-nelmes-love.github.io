@@ -1,0 +1,538 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, caption, article, aside, canvas,
+details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+	font-family: Helvetica;
+	color: #2a2a2a;
+	padding-top: 80px;
+	background-color: #FFF;
+}
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+#container {
+	width: 930px;
+	margin: 0 auto;
+	background-color: #FFF;
+}
+
+/*-------------------------CUSTOM NEW STUFF BY JESS------------------------------*/
+
+
+.clearLeft{
+
+	float: right;
+	clear: left;
+}
+
+.clearRight{
+
+	float: right;
+	clear: right;
+}
+
+/*.activity-section .technology-button{
+
+	margin-bottom: 0px;
+}
+*/
+
+
+/*-------------------------Caption Text to align to images------------------------------*/
+
+ .caption {
+	font-size: 12px;
+	margin-left: 33px;
+	margin-bottom: 33px;
+	line-height: 18px;
+	width: 550px;
+	/*margin-top: -22px; TRY SOMETHING LIKE THIS NEXT TIME! If it works remove the classes for photos wCaptions */
+}
+
+.caption a {
+	color: #B72837;
+}
+
+/*-------------------------!END CUSTOM NEW STUFF BY JESS------------------------------*/
+
+.ack-full {
+ 	font-size: 8pt;
+	color: #aaa;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	padding-left: 53px;
+	overflow: hidden;
+	width: 877px;
+	position: relative;
+	/*background-image: url('../images/page-line.png');*/
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	margin-bottom: 20px;
+}
+
+.ack-full a {
+ 	font-size: 8pt;
+ 	color: #aaa;
+}
+
+.content {
+	width: 930px;
+	padding-top: 60px;
+	overflow: hidden;
+	width: 877px;
+	position: relative;
+	/*background-image: url('../images/page-line.png');*/
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	padding-left: 53px;
+}
+li a {
+	color: #4A2A20;
+	font-style: italic;
+}
+.content-text a {
+	color: #4A2A20;
+	font-style: italic;
+}
+@media screen and (max-width: 959px) {
+	#container {
+	max-width: 100%;
+	}
+	.content {
+		max-width: 95%;
+	}
+}
+#header {
+	width: 897px;
+	padding-left: 33px;
+	height: 80px;
+	background-color: #e7e7e7;
+	position:absolute;
+    top:0;
+}
+#heading-section {
+	height: 40px;
+}
+#course-code {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #945440;
+	color: #FFF;
+	margin-right: 13px;
+	height: 24px;
+	padding: 10px 8px 6px;
+	display: inline-block;
+	float: left;
+}
+h1 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #945440;
+	float: left;
+	padding: 10px 0px 6px;
+}
+h2 {
+	font-size: 19px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 33px;
+	color: #4a2a20;
+}
+h3 {
+	font-size: 16px;
+	line-height: 24px;
+	color: #2a2a2a;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 33px;
+}
+.clearDiv {
+	clear: both;
+}
+#menu {
+	height: 20px;
+    padding-top: 13px;
+    position: relative;
+}
+.menu-item {
+	position: relative;
+	cursor: pointer;
+    float: left;
+    font-size: 12px;
+    list-style: none outside none;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 21px;
+    padding-top: 7px;
+    margin-top: -2px;
+    width: 163px;
+}
+.menu-item-border {
+	border-left: solid 2px #DDD;
+    border-bottom: solid 1px #DDD;
+}
+.last-menu-item-border {
+	border-left: solid 2px #DDD;
+    border-right: solid 2px #DDD;
+    border-bottom: solid 1px #DDD;
+}
+.menu-item-border:hover {
+    border-bottom: solid 1px #FFF;
+}
+.last-menu-item-border:hover {
+    border-bottom: solid 1px #FFF;
+}
+.menu-arrow {
+	position: absolute;
+    right: 20px;
+    top: 3px;
+    width: 25px;
+}
+.submenu {
+	width: 550px;
+	position: absolute;
+	top: 40px;
+	background-color: #ccc;
+	opacity: .9;
+	padding: 10px 19px 10px 20px;
+	z-index: 9999;
+	display: none;
+	font-size: 12px;
+}
+.submenu li {
+	margin: 5px 20px;
+}
+.content-text {
+	width: 550px;
+	margin-left: 33px;
+	margin-bottom: 33px;
+	line-height: 25px;
+}
+
+.activity-section {
+	position: relative;
+	background-color: #D4BBB3;
+	color: #2a2a2a;
+	width: 810px;
+	padding: 33px;
+	padding-bottom: 6px;
+	margin-left: 16px;
+	margin-bottom: 33px;
+}
+.activity-section h3 {
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+.activity-section p {
+	margin-left: 0px;
+	margin-bottom: 23px;
+	line-height: 25px;
+}
+
+/* new jess */
+
+.dropdown-menu-button p {
+
+	line-height: normal;
+
+}
+
+/* !end new jess */
+
+.activity-section ol {
+	margin-left: 22px;
+	margin-bottom: 23px;
+	line-height: 25px;
+}
+.activity-section ul {
+	margin-left: 22px;
+	margin-bottom: 23px;
+	line-height: 25px;
+}
+.activity-number-container {
+    position: absolute;
+    left: -6px;
+    top: 28px;
+    height: 30px;
+    width: 30px;
+}
+.activity-number {
+    height: 30px;
+    width: 30px;
+    background-image: url('../images/icons/activity.png');  /*The path where your activity icon is*/
+    position: relative;
+    float: left;
+    margin: 0 0 0 -45px;
+}
+.activity-number p {
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    top: 3px;
+    left: 8px;
+}
+.footer-link-border {
+	border-left: 2px solid #BBB;
+}
+#back-link {
+	left: 537px;
+}
+#forward-link {
+	left: 636px;
+	padding-left: 20px;
+}
+#back-link:hover {
+	color:#945440;
+}
+#forward-link:hover {
+	color: #945440;
+}
+#footer {
+	background-color: #e7e7e7;
+	color: #60350c;
+	height: 24px;
+    padding: 18px 0px 18px 33px;
+	font-size: 16px;
+	position: relative;
+}
+#footer p {
+	font-weight: bolder;
+	position: absolute;
+	left: 86px
+}
+#footer a {
+	text-decoration: none;
+	color: #4A2A20;
+	position: absolute;
+}
+.page-marker {
+	position: absolute;
+	left: 23px;
+	margin-top: 0;
+}
+.docs-note {
+	width: 500px;
+	font-size: 8pt!important;
+	line-height: 1.5em!important;
+}
+.docs-note a {
+	color: rgb(66, 66, 66)!important;
+	text-decoration: underline;
+}
+.quote-box {
+	background-color: #945440;
+	color: white;
+	margin-left: -53px;
+	width: 930px;
+	padding:10px 0px 10px 57px;
+	margin-bottom: 33px;
+}
+.quote-box p {
+	width: 550px;
+	margin-left: 33px;
+	margin-bottom: 0px;
+	line-height: 25px;
+}
+.bullet-intro {
+	margin-left: 33px;
+	margin-bottom: 0!important;
+}
+.bullet-list {
+	width: 550px;
+	margin-left: 53px;
+	margin-bottom: 33px!important;
+	line-height: 25px;
+}
+.bullet-list li{
+	width: 500px;
+	margin-left: 20px!important;
+	line-height: 25px;
+}
+.bullet-activity li{
+	width: 480px;
+	margin-left: 30px;
+	margin-bottom: 5px;
+	line-height: 25px;
+}
+.video-section {
+	position: relative;
+	margin: 0px 0px 33px;
+	padding-top: 17px;
+}
+.video-section iframe {
+	margin-left:33px;
+	margin-bottom: 33px;
+}
+.video-section p {
+	margin-bottom:0px;
+}
+.activity-icon {
+	position: absolute;
+	left: -35px;
+	top: 15px;
+}
+.activity-section .activity-icon {
+	position: absolute;
+	left: -50px;
+	top: 29px;
+}
+/*My new styles*/
+.iNote {
+	font-size: 0.7em;
+	font-style: italic;
+
+}
+.hidden {
+	display: none;
+}
+.trigger-box {
+	position: relative;
+	margin-left: 33px;
+	width: 550px;
+}
+.trigger {
+	background-color: #ddd;
+	border-bottom: 1px dashed #000;
+	color: ;
+    text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+}
+.explanation {
+	width: 200px;
+	background-color: #DDD;
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 15px;
+	line-height: 25px;
+}
+.explanation2 {
+	position: absolute;
+	top:-23px;
+	right: 0px;
+	background-color: #DDD;
+	width: 200px;
+	font-size: 14px;
+	color:#000;
+	padding: 15px;
+	line-height: 25px;
+}
+
+.zeroTop {
+	padding-top: 0!important;
+	margin-top: 0!important;
+}
+.zeroBottom {
+	padding-bottom: 0!important;
+	margin-bottom: 0!important;
+}
+.zeroLeft {
+	padding-left: 0!important;
+	margin-left: 0!important;
+}
+.zeroRight {
+	padding-right: 0!important;
+	margin-right: 0!important;
+}
+.margin-bottom {
+	margin-bottom: 33px!important;
+}
+.example-box {
+	margin-left: 33px;
+	margin-bottom: 33px;
+}
+.example-box p{
+	margin-bottom: 13px;
+	width: 550px;
+}
+#myPhoto,
+#editPhoto,
+#projectPhoto {
+	width: 110px;
+	margin-bottom: 0;
+}
+.note {
+	color: red;
+}
+.help-icon {
+	background-color: #ececec;
+	border-radius: 50%;
+	border: 1px solid #d3d3d3;
+	padding: 0 2px;
+	color: #000;
+	font-size: 10px;
+	vertical-align: text-top;
+	cursor: pointer;
+	cursor: hand;
+}
+.help-content {
+	position: absolute;
+	width: 186px;
+	background-color: #ececec;
+	z-index: 1;
+}
+.help-content img {
+	position: absolute;
+	transform: translateY(-100%);
+	right: -2px;
+	width: 20px;
+}
+.help-content p {
+	font-size: 12px;
+	text-transform: initial;
+	padding: 13px;
+	line-height: 16px;
+	color: #000;
+	text-align: 
+}
+
+.download {
+	width: 	80px;
+	margin-top: 13px;
+}
+
+.spaced-list > li {
+	margin-bottom: 33px;
+}
+
+.spaced-list a {
+	margin-bottom: 0;
+}
+
+.listItemImage li {
+	width: 450px;
+}
+
+/*upload to dropbox styling at end of lessons*/
+
+.upload-to-dropbox {
+	box-shadow: 0px 0px 10px 1px lightgrey;
+	padding: 15px 0px;
+	width: 574px;
+	margin-bottom: 50px;
+	margin-left: 33px;
+}
+
+.upload-to-dropbox p{
+	margin: 0px 0px 33px 14px;
+	line-height: 25px;
+	width: 550px;
+}
+
+.dropbox-button {
+	margin: 0 0 8px 14px;
+}

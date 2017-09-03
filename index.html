@@ -3,140 +3,111 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Daniel Nelmes-Love</title>
+	<link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/jquery.qtip.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="shortcut icon" type="image/x-icon"  href="favicon.png">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Gentium+Book+Basic|Goblin+One' rel='stylesheet' type='text/css'>
-	<script src="jquery-1.11.1.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/jquery.qtip.min.js"></script>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<link rel="shortcut icon" type="image/x-icon"  href="favicon.png">
 </head>
 <body>
-	<div id="masthead">
-		<div class="content">
-			<h1 class="first name">DANIEL</h1>
-			<h1 class="last name">NELMES-LOVE</h1>
-			<h2 class="job"><strong>{ </strong>Front-End Web Developer<strong>}</strong></h2>
-		</div>
-		<a href="#about-wrap">
-			<div class="arrow-wrapper">
-				<img class="down-arrow" src="img/arrow-down.png" alt="">
-			</div>
-		</a>
+	<div id="navBar">
+		<a class="pageLink" href="mailto:dnelmeslove@gmail.com">Contact</a>
+		<a class="pageLink" href="Javascript:openProjects();">Projects</a>
+		<a class="pageLink" href="Javascript:aboutMe();">About me</a>
 	</div>
-	<div id="section-wrap">
-	<div id="about-wrap">
-			<div class="content" id="about-me">
-				<div class="heading">ABOUT ME</div>
-				<div id="my-photo-wrap">
-					<img id="my-photo" src="img/me.jpg" alt="My Photo">
-					<div class="talk" id="talk-main">
-						<h2>LETS TALK</h2>
-						<ul class="icons">
-				            <li><a href="mailto:dnelmeslove@gmail.com?subject=Portfolio%20message">
-				            	<i class="fa fa-envelope-o" id="mail"></i>
-				            </a></li>
-				            <li><a href="http://www.facebook.com/profile.php?id=749211290">
-				            	<i class="fa fa-facebook"></i>
-				            </a></li>
-				            <li><a href="http://plus.google.com/112747779893324674477/about">
-				            	<i class="fa fa-google-plus"></i>
-				            </a></li>
-				            <li><a href="http://github.com/daniel-nelmes-love">
-				            	<i class="fa fa-github"></i>
-				            </a></li>
-				        </ul>
-					</div>
-				</div>
-				<div class="text">
-					<p>Hi I'm Dan and I have recently completed a Front-End Web Development course offered by <a href="https://www.thinkful.com/">Thinkful</a>. In this course I learned how to use HTML, CSS, JavaScript, JQuery, Ajax and Git together to create well designed, responsive and functional websites - check out my <a href="#project-wrap">Portfolio</a>!</p>
-					<p>I also completed a commerce degree in 2012 through <a href="http://www.victoria.ac.nz/">Victoria University of Wellington</a> double majoring in management and marketing with a minor in international business.</p>
-					<p>I am currently working as a <strong id="quality">Quality Specialist</strong> where my main focuses are customer service and procedure compliance; however, I have come to love the more technical aspects of my role utilising Microsoft Excel and its VBA coding language to create accurate and meaningful reports.
+
+	<div id="mastHead">
+		<div class="container">
+			<p class="first name">DANIEL</p>
+			<p class="last name">NELMES-LOVE</p>
+			<p class="job"><strong>{ </strong>Front-End Web Developer<strong>}</strong></p>
+		</div>
+	</div>
+	<div id="content">
+		<div class="section">
+			<div id="aboutMe">
+				<h1>ABOUT ME</h1>
+				<img class="photo" src="img/me.png">
+				<div class="textContainer">
+					<p>
+						Hi I'm Dan! I work as a <b>Web Developer</b> creating content for people from all walks of life. I specialise in front-end development mainly using <b>CSS, JQuery</b> and <b>JavaScript</b> to create well designed and functional web pages. I have also learned to create and adapt images using <b>stock libraries, Photoshop</b> and <b>Illusrator</b>. In terms of back-end development, I have experience with <b>Ajax, Git</b> and multiple <b>CMS</b>.
+						<br>
+						See here for some <a href="Javascript:openProjects();">examples of my projects</a>.
+					</p>
+
+					<p>
+						On top of my development experience, I hold a commerce degree in <b>Marketing</b> and <b>Management</b> with a minor in <b>International Business</b> and have <b>5 years</b> of business experience.
+					</p>
+
+					<p>
+						If you have any questions or just feel like getting in touch you can <a href="mailto:dnelmeslove@gmail.com">contact me here</a>.
 					</p>
 				</div>
-				<div class="talk" id="talk-hidden">
-					<h2>LETS TALK</h2>
-					<ul class="icons">
-			            <li><a href="mailto:dnelmeslove@gmail.com?subject=Portfolio%20message">
-			            	<i class="fa fa-envelope-o" id="mail"></i>
-			            </a></li>
-			            <li><a href="http://www.facebook.com/profile.php?id=749211290">
-			            	<i class="fa fa-facebook"></i>
-			            </a></li>
-			            <li><a href="http://plus.google.com/112747779893324674477/about">
-			            	<i class="fa fa-google-plus"></i>
-			            </a></li>
-			            <li><a href="http://github.com/daniel-nelmes-love">
-			            	<i class="fa fa-github"></i>
-			            </a></li>
-			        </ul>
+			</div>
+		</div>
+	</div>
+	<div id="projects">
+		<div class="overlay"></div>
+		<div class="section">
+			<div class="container">
+				<div class="header">
+					<h1>PROJECTS</h1>
+					<a href="Javascript:closeProjects();" class="close">&xotime;</a>
+				</div>
+				<div class="viewer">
+					<div class="project">
+						<a href="projects/dragAndDrop/index.html" target="_blank">
+							<img src="img/drag.png" alt="Image of my drag and drop quiz.">
+							<div class="caption">
+								<p>A simple quiz built using Javascript with jQuery to shuffle and validate user inputs utilising the jQuery UI package.</p>
+							</div>
+						</a>
+					</div>
+					<div class="project">
+						<a href="projects/crossword/index.html" target="_blank">
+							<img src="img/crossword.png" alt="Image of my crossword template.">
+							<div class="caption">
+								<p>A template crossword I created for non-developers to easily alter without having to know Javascript or jQuery.</p>
+							</div>
+						</a>
+					</div>
+					<div class="project">
+						<a href="projects/nutrition/index.html" target="_blank">
+							<img src="img/food.png" alt="Image of my food API hack.">
+							<div class="caption">
+								<p>An Ajax API hack that provides nutritional information of common foods; similar functionality to other dieting apps.</p>
+							</div>
+						</a>
+					</div>
+					<div class="project">
+						<a href="projects/sketcher/index.html" target="_blank">
+							<img src="img/sketch.png" alt="Image of my sketcher app.">
+							<div class="caption">
+								<p>A sketcher app that utilises the HTML canvas tag and the html2canvas plugin to allow uses to draw and download their image.</p>
+							</div>
+						</a>
+					</div>
+					<div class="project">
+						<a href="projects/casino/index.html" target="_blank">
+							<img src="img/quiz.png" alt="Image of my casino quiz.">
+							<div class="caption">
+								<p>A Javascript object oriented quiz application with an in-built random question selector as well as situational feedback.</p>
+							</div>
+						</a>
+					</div>
+					<div class="project">
+						<a href="projects/list/index.html" target="_blank">
+							<img src="img/shopping.png" alt="Image of my shopping list project.">
+							<div class="caption">
+								<p>A clean and simple listing web app. The web application uses local storage in your browser to repopulate the list after refreshing.</p>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div id="project-wrap">
-			<ul class="content">
-				<h2 class="heading">MY PROJECTS</h2>
-				<li class="top left projectImg">
-					<a id="quiz"href="http://daniel-nelmes-love.github.io/quiz/index.html">
-					<img src="img/quiz.jpg" alt="Quiz"></a>
-					<div class="img description">
-						<a href="http://daniel-nelmes-love.github.io/quiz/index.html">A Javascript object oriented quiz app with a random question selector, and situational feedback.</a>
-					</div>
-					
-				</li>
-				<li class="top right projectImg">
-					<a id="api" href="http://daniel-nelmes-love.github.io/food-api/index.html">
-					<img src="img/food.jpg" alt="Ajax API Hack"></a>
-					<div class="img description">
-						<a href="http://daniel-nelmes-love.github.io/food-api/index.html">A simple Ajax API hack to help those looking for the nutritional information of common foods.</a>
-					</div>
-				</li>
-				<li class="bottom left projectImg">
-					<a id="shopping" href="http://daniel-nelmes-love.github.io/shopping-app/index.html">
-					<img src="img/shopping.jpg" alt="Shopping List App"></a>
-					<div class="img description">
-						<a href="http://daniel-nelmes-love.github.io/shopping-app/index.html">A tidy shopping list web app that remembers your list through the use of your browser's local storage</a>
-					</div>
-				</li>
-				<li class="bottom right projectImg">
-					<a id="hot-cold" href="http://daniel-nelmes-love.github.io/hot-or-cold-starter/index.html">
-					<img src="img/hot-cold.jpg" alt="Hot or Cold"></a>
-					<div class="img description">
-						<a href="http://daniel-nelmes-love.github.io/hot-or-cold-starter/index.html">The application of Javascript logic to a forked Git template of HTML and CSS to reproduce this classic 'Hot or Cold' game!</a>
-					</div>
-				</li>
-			</ul>
-		</div>
-
-	</div>
-	<div id="nav-bar">
-		<ul class="links">
-			<li class="navLink"><a class="pageTop link" href="#">DNL</a></li>
-			<li class="navLink"><a class="about link" href="#about-wrap">About Me</a></li>
-			<li class="navLink"><a class="project link" href="#project-wrap">Projects</a></li>
-			<li id="contactDrop" class="navLink">
-				<a class="contact link">Contact</a>
-				<div class="hidden">
-					<ul>
-			            <li><a href="mailto:dnelmeslove@gmail.com?subject=Portfolio%20message">
-			            	<i class="fa fa-envelope-o link"></i>
-			            </a></li>
-			            <li><a href="http://www.facebook.com/profile.php?id=749211290">
-			            	<i class="fa fa-facebook link"></i>
-			            </a></li>
-			            <li><a href="http://plus.google.com/112747779893324674477/about">
-			            	<i class="fa fa-google-plus link"></i>
-			            </a></li>
-			            <li><a href="http://github.com/daniel-nelmes-love">
-			            	<i class="fa fa-github link github"></i>
-			            </a></li>
-			        </ul>
-				</div>
-			</li>
-		</ul>
-		
 	</div>
 </body>
 </html>

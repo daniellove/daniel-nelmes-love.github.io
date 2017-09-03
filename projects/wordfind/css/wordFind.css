@@ -1,0 +1,56 @@
+#WF1 > div {
+	display: inline-block;
+}
+
+#WF1 .wordFind {
+	font-family: 'Cousine';
+	background-color: #FFF;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px #b7b7b7;
+	width: 300px;
+	height: 300px;
+}
+
+#WF1 .wf_row {
+	margin-bottom: -5px;
+}
+
+#WF1 .wf_row div {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	position: relative;
+	border-radius: 5px;
+	
+}
+
+#WF1 .wf_row p {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#WF1 .selected {
+	background-color: #9ED2FF!important;
+}
+
+#WF1 .wordList {
+	vertical-align: top;
+	background-color: #FFF;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 1px 1px 5px #b7b7b7;
+}
+
+#WF1 .wordList div {
+	margin-bottom: 2px;
+	border-radius: 5px;
+}
+
+#WF1 .foundWord {
+	cursor: pointer;
+}
