@@ -3,111 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Daniel Nelmes-Love</title>
-	<link href="https://fonts.googleapis.com/css?family=Rubik:400,700" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="shortcut icon" type="image/x-icon"  href="favicon.png">
+	<link rel="shortcut icon" type="image/x-icon"  href="fav32.png">
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/scripts.js"></script>
-	<link rel="shortcut icon" type="image/x-icon"  href="favicon.png">
 </head>
 <body>
-	<div id="navBar">
-		<a class="pageLink" href="mailto:dnelmeslove@gmail.com">Contact</a>
-		<a class="pageLink" href="Javascript:openProjects();">Projects</a>
-		<a class="pageLink" href="Javascript:aboutMe();">About me</a>
-	</div>
-
-	<div id="mastHead">
-		<div class="container">
-			<p class="first name">DANIEL</p>
-			<p class="last name">NELMES-LOVE</p>
-			<p class="job"><strong>{ </strong>Front-End Web Developer<strong>}</strong></p>
-		</div>
-	</div>
-	<div id="content">
-		<div class="section">
-			<div id="aboutMe">
-				<h1>ABOUT ME</h1>
-				<img class="photo" src="img/me.png">
-				<div class="textContainer">
-					<p>
-						Hi I'm Dan! I work in education as a <b>front-end Web Developer</b> creating content for people from all walks of life. I specialise in <b>UX design</b> using <b>CSS, Javascript and JQuery</b> while applying <b>ReactJS</b> development principles. For my content I also create and adapt stock images using <b>Photoshop</b> and <b>Illusrator</b>. In terms of back-end development, I have experience with <b>PHP, Ajax, Git</b> and multiple <b>CMS</b>.
-						<br>
-						See here for some <a href="Javascript:openProjects();">examples of my projects</a>.
-					</p>
-
-					<p>
-						On top of my web-development experience, I have created many <b>automation applications</b> using &lsquo;basic&rsquo; programming languages. Examples of these include <b>HR and Workflow management tools</b> using VBA and <b>mobile application bots</b> using AHK. I also hold a commerce degree in <b>Marketing</b> and <b>Management</b> with a minor in <b>International Business</b> and have <b>6 years</b> experience in corporate working environments.
-					</p>
-
-					<p>
-						If you have any questions or just feel like getting in touch you can <a href="mailto:dnelmeslove@gmail.com">contact me here</a>.
-					</p>
-				</div>
+	<nav>
+		<div class="navInner">
+			<div class="logo">
+				<p>Web Designer & Developer</p>
 			</div>
-		</div>
-	</div>
-	<div id="projects">
-		<div class="overlay"></div>
-		<div class="section">
-			<div class="container">
-				<div class="header">
-					<h1>PROJECTS</h1>
-					<a href="Javascript:closeProjects();" class="close">&xotime;</a>
-				</div>
-				<div class="viewer">
-					<div class="project">
-						<a href="projects/dragAndDrop/index.html" target="_blank">
-							<img src="img/drag.png" alt="Image of my drag and drop quiz.">
-							<div class="caption">
-								<p>A simple quiz built using Javascript with jQuery to shuffle and validate user inputs utilising the jQuery UI package.</p>
-							</div>
-						</a>
-					</div>
-					<div class="project">
-						<a href="projects/crossword/index.html" target="_blank">
-							<img src="img/crossword.png" alt="Image of my crossword template.">
-							<div class="caption">
-								<p>A template crossword I created for non-developers to easily alter without having to know Javascript or jQuery.</p>
-							</div>
-						</a>
-					</div>
-					<div class="project">
-						<a href="projects/nutrition/index.html" target="_blank">
-							<img src="img/food.png" alt="Image of my food API hack.">
-							<div class="caption">
-								<p>An Ajax API hack that provides nutritional information of common foods; similar functionality to other dieting apps.</p>
-							</div>
-						</a>
-					</div>
-					<div class="project">
-						<a href="projects/sketcher/index.html" target="_blank">
-							<img src="img/sketch.png" alt="Image of my sketcher app.">
-							<div class="caption">
-								<p>A sketcher app that utilises the HTML canvas tag and the html2canvas plugin to allow uses to draw and download their image.</p>
-							</div>
-						</a>
-					</div>
-					<div class="project">
-						<a href="projects/casino/index.html" target="_blank">
-							<img src="img/quiz.png" alt="Image of my casino quiz.">
-							<div class="caption">
-								<p>A Javascript object oriented quiz application with an in-built random question selector as well as situational feedback.</p>
-							</div>
-						</a>
-					</div>
-					<div class="project">
-						<a href="projects/list/index.html" target="_blank">
-							<img src="img/shopping.png" alt="Image of my shopping list project.">
-							<div class="caption">
-								<p>A clean and simple listing web app. The web application uses local storage in your browser to repopulate the list after refreshing.</p>
-							</div>
-						</a>
-					</div>
-				</div>
+			<div class="navItems">
+				<a class="navItem">About me</a>
+				<a class="navItem">Projects</a>
+				<a class="navItem">Contact</a>
 			</div>
+			<div class="clearDiv"></div>
 		</div>
-	</div>
+	</nav>
+
+		<div id="mastHead">
+			<img src="img/logo.png">
+		</div>
+
+
 </body>
 </html>
