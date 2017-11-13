@@ -1,4 +1,5 @@
-$(window).on('load',function() {
+
+$(function() {
 	$('body')
 		.addClass('docLoading')
 		.append('\
@@ -11,7 +12,7 @@ $(window).on('load',function() {
 	')
 })
 
-$(function() {
+$(window).on('load',function() {
 	$(document).find('.loading').remove()
 	$('body').removeClass('docLoading')
 })
